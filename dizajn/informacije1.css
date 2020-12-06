@@ -1,0 +1,225 @@
+* {
+  width: 96%;
+  margin: 0 auto;
+  background-image: url("duga.jpg");
+  background-color: #a0522d;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.div2 a:hover {
+  background-color: mediumturquoise;
+}
+body {
+  background-color: burlywood;
+  margin: 0 auto;
+}
+
+.div1 {
+  background-color: #a0522d;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-size: 65px;
+}
+h1 #p1 {
+  color: red;
+}
+h1 #p2 {
+  color: greenyellow;
+}
+h1 #p3 {
+  color: mediumturquoise;
+}
+.div1 h4 {
+  font-size: 30px;
+  color: wheat;
+}
+.div4 {
+  width: 100%;
+  height: 130px;
+  background-image: linear-gradient(red, greenyellow, mediumturquoise);
+}
+
+.div2 {
+  width: 100%;
+  background-color: burlywood;
+  color: #a0522d;
+  text-align: center;
+  word-spacing: 280px;
+  padding-bottom: 30px;
+}
+.div2 h3 {
+  background-color: burlywood;
+  margin: 0 auto;
+  font-size: 30px;
+}
+.div2 a {
+  width: 100%;
+  background-color: burlywood;
+  color: #a0522d;
+  font-style: italic;
+
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .div2 a {
+    margin: 150px;
+  }
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: burlywood;
+
+  padding-bottom: 20px;
+  font-family: cursive;
+  color: #a0522d;
+}
+.pdiv {
+  display: grid;
+  grid-gap: 1em;
+  background-color: burlywood;
+  border-radius: 20px;
+}
+
+.pdiv div {
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.div5{
+  color: burlywood;
+  height: 120px;
+  justify-content: center;
+}
+.div5 h3{
+  color:red;
+  font-family: cursive;
+}
+#bla{
+  height: 70px;
+  bottom: 5%;
+}
+@media only screen and (max-width: 600px) {
+  .div5{
+    width: 95%;
+    height: 230px;
+  }
+  #bla{
+    height: 80px;
+  }
+}
+.div6 {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+  height: 120px;
+  height: 70px;
+}
+.div6 b {
+  background-color: lightgoldenrodyellow;
+}
+.div6 h3 {
+  background-color: lightgoldenrodyellow;
+  color: greenyellow;
+  font-family: cursive;
+}
+#vreme{
+  background-color: lightgoldenrodyellow;
+}
+.div7 {
+  color: burlywood;
+}
+#sakrij {
+  display: none;
+}
+#prikazi {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+}
+.div7 table {
+  color: #a0522d;
+  padding: 10px;
+  width: 60%;
+  margin-bottom: 10px;
+  border: 2px;
+  border-style: groove;
+  border-color: burlywood;
+  font-weight: bold;
+}
+
+.div7 tr td {
+  background-color: burlywood;
+  width: 5px;
+}
+.div7 th {
+  background-color: burlywood;
+  color: #a0522d;
+}
+.div7 h3 {
+  color: mediumturquoise;
+  font-family: cursive;
+}
+#rb {
+  width: 50px;
+}
+.div8 {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+  height: 410px;
+}
+.div8 h3 {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+  color: red;
+  font-family: cursive;
+}
+.div8 ol {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+  width: 80%;
+}
+
+.div8 ol li {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+}
+.div8 ol li b {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+}
+.div8 ul {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+}
+.div8 ul li i {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+}
+@media only screen and (max-width: 600px) {
+  .div8 {
+    margin: 10px;
+    width: 95%;
+    height: 510px;
+  }
+  .div ul i{
+    width: 5px;
+  }
+  #uh {
+    margin: 5px;
+    width: 60%;
+  }
+  
+}
+.div9 {
+  color: burlywood;
+  height: 105px;
+}
+.div9 h3 {
+  color: greenyellow;
+  font-family: cursive;
+}

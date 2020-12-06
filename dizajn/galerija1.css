@@ -1,0 +1,208 @@
+*{
+    width:96%;
+   margin: 0 auto;
+   background-image: url("duga.jpg");
+   background-color:#A0522D;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: burlywood;
+  margin: 0 auto;
+}
+
+.div1{
+    background-color: #A0522D;
+    width: 100%;
+    text-align: center;
+}
+.div1 p{
+    padding: 0px;
+}
+h1{
+    font-size: 65px;
+    background-color: #A0522D;
+}
+h1 #p1{
+color: red;
+font-size: 65px;
+background-color: #A0522D;
+margin-bottom: 0px;
+
+}
+h1 #p2{
+    font-size: 65px;
+    color: greenyellow;
+    background-color: #A0522D;
+    
+    }
+    h1 #p3{
+        color:mediumturquoise;
+        font-size: 65px;
+        background-color: #A0522D;
+        }
+.div1 h4{
+    font-size: 30px;
+    color:wheat ;
+}
+#lopte{
+    width: 100%;
+    height: 15em;
+}
+.div4{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(red, greenyellow,mediumturquoise);
+}
+
+.div2{
+    width: 100%;
+    background-color: burlywood;
+    color:#A0522D ;
+    text-align: center;
+    word-spacing: 280px;
+    padding-bottom: 30px;
+}
+.div2 h3{
+    background-color: burlywood;
+    margin: 0 auto;
+font-size: 30px;
+
+}
+.div2 a:hover{
+   background-color: mediumturquoise;
+
+}
+
+
+.div2 a{
+    width: 100%;
+    background-color:burlywood;
+    color:#A0522D ;
+    font-style: italic;
+    font-size:20px;
+}
+@media only screen and (max-width: 600px) {
+    .div2 a {
+      margin: 150px;
+    }
+  }
+.div2 a :hover{
+    background-color: mediumaquamarine;
+}
+.atm{
+    display: flex;
+    text-align: center;
+  justify-items: center;
+
+justify-content: space-around;
+}
+.atm a{
+    flex: 1;
+    background-color: burlywood;
+  
+}
+.atm a img{
+    height: 95%;
+    border-radius: 10px;
+  
+}
+p{
+    text-align: center;
+    color: #A0522D;
+    background-color: burlywood;
+    font-style: oblique;
+    font-size: 20px;
+}
+.rad{
+    padding-top: 20px;
+    background-color: burlywood;
+    display: flex;
+    text-align: center;
+  justify-items: center;
+
+justify-content: space-around;
+height: 400px;
+}
+
+.rad a{
+    flex: 1;
+    background-color: burlywood;
+  
+}
+.rad a img{
+    height: 350px;
+    border-radius: 10px;
+  width: 95%;
+}
+p{
+    text-align: center;
+    color: #A0522D;
+    background-color: burlywood;
+    font-style: oblique;
+    font-size: 20px;
+}
+div{
+    background-color: burlywood;
+}
+
+@media only screen and (max-width: 600px) {
+    .rad #ep1{
+        width: 95%;
+    }
+    .rad #ep2{
+        width: 95%;
+    }
+    #s4{
+        width: 95%;
+    }
+    #s5{
+        width: 95%;
+    }
+}
+.anim{
+    display: flex;
+    text-align: center;
+  justify-items: center;
+padding-top: 20px;
+justify-content: space-around;
+background-color: burlywood;
+}
+.anim a{
+    flex: 1;
+    background-color: burlywood;
+  
+}
+.anim a img{
+    height: 95%;
+    border-radius: 10px;
+  
+}
+p{
+    text-align: center;
+    color: #A0522D;
+    background-color: burlywood;
+    font-style: oblique;
+    font-size: 20px;
+    padding-top: 10px;
+}
+img{
+    padding: 4px;
+    border:4px;
+    background-color: mediumturquoise;
+}
+
+.atm a:hover{
+   border-radius: 10px;
+   background-image: url("https://www.matrix.edu.au/wp-content/uploads/2018/09/guide-english-year-12-film-techniques-toolkit-mobile.png");
+    
+}
+.rad a:hover{
+    border-radius: 10px;
+    background-image: url("https://www.matrix.edu.au/wp-content/uploads/2018/09/guide-english-year-12-film-techniques-toolkit-mobile.png");
+     
+ }
+ .anim a:hover{
+    border-radius: 10px;
+    background-image: url("https://www.matrix.edu.au/wp-content/uploads/2018/09/guide-english-year-12-film-techniques-toolkit-mobile.png");
+     
+ }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="dizajn/zakazite1.css">
+</head>
+<body>
+  <script src="javascript/zakazite2.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="javascript/zakazite3.js"></script>
+    <div class="div1">
+        <h1><b><i> <p id="p1">Play</p><p id="p2">all</p><p id="p3">day</p> </i></b></h1>
+       <h4><i>Igrajte se uz nas!</i></h4>
+       <br></div>
+       <div class="div4">
+   
+       </div>
+       <br>
+       <div class="div2">
+       <h3>Meni</h3>
+       <br>
+       
+       <a href="pocetna.html">Početna</a>
+       <a href="informacije.html">Informacije</a>
+       <a href="galerija.html">Galerija</a>
+       <a href="zakazite.html">Zakažite</a>
+   
+   </div>
+   <div class="div5">
+       <b><h3 id = "ag">INSTRUKCIJE!</h3></b>
+       <p> U nastavku možete da vidite formu koju popunjavate u zavisnosti od usluge koja vam je potrebna. <br>
+        Dovođenje Vaših mališana u našu igraonicu možete da zakažete online odabirom opcije (na koliko sati želite da nam se pridružite)<br>
+        Takođe, zakazivanje rođendana možete izvršiti unosom neophodnih podataka, nakon čega Vas mi kontaktiramo i dogovaramo se za načine plaćanja <br>
+        Za sve nejasnoće i dodatna pitanja uvek nas možete kontaktirati putem telefona, mail-a ili naših društvenih mreža!</p>
+        
+   </div>
+   <div class="f1">
+<form class="forma1">
+    <label for="opcije">Izaberite uslugu:</label><br><br>
+    <select class="izbori" id="opcije" >
+        <optgroup label="Dnevni boravak">
+            
+<option value="Prva opcija" id = "o1">Igranje 1h</option>
+<option value="Druga opcija" id = "o2">Igranje 3h</option>
+<option value="Treca opcija" id = "o3">Igranje ceo dan</option>
+        </optgroup>
+        <optgroup  label="Rodjendan">
+<option value="Opcija1" id = "o4">Rođendan bez dodatnih usluga</option>
+<option value="Opcija2" id = "o5">Rođendan uz animatora</option>
+<option value="Opcija3" id = "o6">Rođendan sa keteringom</option>
+<option value="Opcija4" id = "o7">Rođendan sa celokupnom uslugom</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+    <label for="dat">Izaberite datum:</label><br><br>
+  
+<input type="date" id="dat" name="Datum" >
+<br><br><br>
+<div class = "polja">
+<input type="text" id="ip" value="Ime i prezime">
+<input type="text" id="be" value="Broj telefona/e-mail">
+</div>
+<br><br><br>
+
+<div class="divb">
+<button id="potvrda" onclick="notifikacija()">Potvrdite</button><br><br>
+<input type="reset" value="Restartuj formu" id="reset">
+</div>
+</form>
+
+</div>
+<div class="f2">
+<form class="forma2">
+    <p>Da li ste zadovoljni našom uslugom?</p><br>
+    <label for="da">Da</label>
+    <input type="radio" id="da" name="pitanje">
+    <br>
+    <label for="ne">Ne</label>
+    <input type="radio"  id="ne" name="pitanje">
+    <br>
+    <div class="divu">
+    <p>Knjiga utisaka:</p>
+    <br>
+    <textarea name="" id="" cols="3" rows="20"></textarea>
+    <br>
+    <input type="reset" value="Save" id="sv" onclick="notifikacija1()" >
+</div>
+</form>
+</div>
+
+</body>
+</html>

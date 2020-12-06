@@ -1,0 +1,364 @@
+* {
+  width: 96%;
+  margin: 0 auto;
+  background-image: url("duga.jpg");
+  background-color: #a0522d;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: burlywood;
+  margin: 0 auto;
+}
+
+.div1 {
+  background-color: #a0522d;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-size: 65px;
+}
+h1 #p1 {
+  color: red;
+}
+h1 #p2 {
+  color: greenyellow;
+}
+h1 #p3 {
+  color: mediumturquoise;
+}
+.div1 h4 {
+  font-size: 30px;
+  color: wheat;
+}
+#lopte {
+  width: 100%;
+  height: 15em;
+}
+.div4 {
+  width: 100%;
+  height: 130px;
+  background-image: linear-gradient(red, greenyellow, mediumturquoise);
+}
+.div2 a:hover {
+  background-color: mediumturquoise;
+}
+.div2 {
+  width: 100%;
+  background-color: burlywood;
+  color: #a0522d;
+  text-align: center;
+  word-spacing: 280px;
+  padding-bottom: 30px;
+}
+.div2 h3 {
+  background-color: burlywood;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #a0522d;
+}
+.div2 a {
+  width: 100%;
+  background-color: burlywood;
+  color: #a0522d;
+  font-style: italic;
+
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .div2 a {
+    margin: 150px;
+  }
+}
+
+.div5{
+  padding: 10px;
+  background-color: lightskyblue;
+  color: red;
+  height: 145px;
+  border-radius: 10px;
+  margin-left: 30px;
+  width: 93.75%;
+}
+.div5 h3{
+  background-color: lightskyblue;
+  color: red;
+}
+.div5 p{
+  padding-top: 15px;
+  font-size: small;
+  height: 80px;
+  padding-bottom: 5px;
+  background-color: lightskyblue;
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  .div5{
+    background-color: lightskyblue;
+    color: red;
+    height: 195px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .div5 p{
+    height: 80px;
+    padding-bottom: 5px;
+    font-size: small;
+  }
+}
+.forma1 {
+  margin-top: 20px;
+  padding: 2px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.f1{
+  background-color: lightgoldenrodyellow;
+  margin-top: 10px;
+  width: 95%;
+  border-radius: 10px;
+}
+label {
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+}
+#opcije,
+#dat {
+  background-color: burlywood;
+  color: black;
+  font-family: monospace;
+  padding: 2px;
+  border: 2px;
+  border-radius: 10px;
+  border-color: #a0522d;
+  width: 35%;
+  height: 2em;
+}
+#izr {
+  background-color: lightskyblue;
+  color: darkblue;
+  font-family: monospace;
+  padding: 2px;
+  border: 2px;
+  border-radius: 20px;
+  border-color: darkblue;
+  width: 10%;
+  height: 3em;
+}
+#izr:hover {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+.polja{
+  background-color: lightgoldenrodyellow;
+}
+
+.divb {
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  width: 25%;
+  justify-items: left;
+}
+#reset {
+  background-color: lightskyblue;
+  color: darkblue;
+  font-family: monospace;
+  padding: 2px;
+  border: 2px;
+  border-radius: 20px;
+  border-color: darkblue;
+  width: 3em;
+  height: 3em;
+  flex: 1;
+  margin-left: 3em;
+}
+#potvrda {
+  background-color: lightskyblue;
+  color: darkblue;
+  font-family: monospace;
+  padding: 2px;
+  border: 2px;
+  border-radius: 20px;
+  border-color: darkblue;
+  width: 3em;
+  height: 3em;
+  flex: 1;
+}
+#potvrda:hover {
+  background-color: lightcoral;
+  color: red;
+}
+#reset:hover {
+  background-color: lightcoral;
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  .forma1 {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    color: #a0522d;
+    margin-bottom: 10px;
+  }
+  label {
+    background-color: lightgoldenrodyellow;
+    color: #a0522d;
+  }
+  .f1{
+    margin: 10px;
+    width: 86%;
+    border-radius: 10px;
+  }
+  .polja{
+  display: flex;
+  }
+  #ip{
+  height: 60px;
+  width: 70%;
+  font-size: x-small;
+  flex: 1;
+}
+#be{
+  height: 60px;
+  width: 70%;
+  font-size: xx-small;
+  flex: 1;
+}
+  #opcije,
+  #dat {
+    background-color: burlywood;
+    color: black;
+    font-family: monospace;
+    padding: 2px;
+    border: 2px;
+    border-radius: 10px;
+    border-color: #a0522d;
+    width: 35%;
+    height: 2em;
+  }
+  #izr {
+    background-color: lightskyblue;
+    color: darkblue;
+    font-family: monospace;
+    padding: 2px;
+    border: 2px;
+    border-radius: 20px;
+    border-color: darkblue;
+    width: 10%;
+    height: 3em;
+  }
+  #izr:hover {
+    background-color: lightgreen;
+    color: darkgreen;
+  }
+  .divb {
+    display: flex;
+    width:25%;
+    justify-items: center;
+  }
+  #reset {
+    background-color: lightskyblue;
+    color: darkblue;
+    font-family: monospace;
+    padding: 2px;
+    border: 2px;
+    border-radius: 20px;
+    border-color: darkblue;
+    width: 9em;
+    height: 3em;
+    flex: 1;
+    margin-left: 3em;
+  }
+  #potvrda {
+    background-color: lightskyblue;
+    color: darkblue;
+    font-family: monospace;
+    padding: 2px;
+    border: 2px;
+    border-radius: 20px;
+    border-color: darkblue;
+    width: 6em;
+    height: 3em;
+    flex: 1;
+  }
+  #potvrda:hover {
+    height: 30px;
+    width:100px;
+  }
+  #reset:hover {
+    width:100px;
+  }
+}
+.forma2 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+  margin-bottom: 10px;
+  padding-top: 2em;
+  width:97%;
+}
+.f2{
+  background-color: lightgoldenrodyellow;
+  margin-top: 10px;
+  width: 95%;
+  border-radius: 10px;
+}
+.divu {
+  margin-top: 2em;
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+}
+textarea {
+  background-color: white;
+  color: black;
+}
+.forma2 p {
+  text-align: left;
+  background-color: lightgoldenrodyellow;
+  color: #a0522d;
+}
+.forma2 input {
+  width: 2em;
+}
+.forma2 label {
+  margin-left: 2em;
+}
+#ip,
+#be {
+  background-color: white;
+  color: black;
+  font-family: monospace;
+  padding: 2px;
+  border: 2px;
+  border-radius: 10px;
+  border-color: #a0522d;
+  width: 20%;
+  height: 2em;
+}
+#sv {
+  background-color: lightskyblue;
+  color: darkblue;
+  font-family: monospace;
+  padding: 2px;
+  border: 2px;
+  border-radius: 20px;
+  border-color: darkblue;
+  width: 3em;
+  height: 3em;
+  margin: 1em;
+}
+@media only screen and (max-width: 600px) {
+  .f2{
+    margin: 10px;
+    width: 90%;
+    border-radius: 10px;
+  }
+}
